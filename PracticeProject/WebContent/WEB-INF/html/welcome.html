@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Practice Project</title>
+<meta name="description" content="">
+
+
+<link rel="stylesheet" href="/PracticeProject/css/bootstrap.min.css">
+
+<link href="/PracticeProject/scripts/lib/ui-grid.css" rel="stylesheet"
+	type="text/css" />
+<link href="/PracticeProject/css/grid.css" rel="stylesheet"
+	type="text/css" />
+<script type="text/javascript"
+	src="/PracticeProject/scripts/lib/jquery/jquery-2.1.3.min.js">
+</script>
+
+<script src="/PracticeProject/scripts/lib/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript"
+	src="/PracticeProject/scripts/lib/angular.js">
+</script>
+<script type="text/javascript"
+	src="/PracticeProject/scripts/lib/angular-route.js">
+</script>
+<script type="text/javascript"
+	src="/PracticeProject/scripts/lib/ui-grid.js">
+</script>
+
+</head>
+<body ng-app="myApp">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#/home">Register</a></li>
+		<li><a href="#/users">User List</a></li>
+	</ul>
+
+
+
+	<!-- <div ng-controller="homeController">
+		<h2>{{message}}</h2>
+	</div> -->
+	<div ng-view></div>
+
+	<script src="/PracticeProject/scripts/app.js"></script>
+	<script type="text/javascript"
+		src="/PracticeProject/scripts/controller.js">
+</script>
+
+	<script type="text/javascript" src="/PracticeProject/scripts/route.js">
+</script>
+	<script type="text/javascript"
+		src="/PracticeProject/scripts/service.js"></script>
+</body>
+</html>
